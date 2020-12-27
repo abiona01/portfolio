@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <!--Import Google Icon Font-->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <title>My Portfolio</title>
+    <style>
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/laptop-glowing-in-the-dark.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+        .intro {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        section{
+          padding-top: 2vw;
+          padding-bottom: 2vw;
+        }
+        @media screen and (max-width: 670px){
+          header  {
+            min-height: 500px;
+          }
+        }
+        .flex-container {
+            flex-direction: row;
+        }
+        .footer-list {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper black z-depth-0" style="position: fixed;">
+            <div class="container">
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <ul class="sidenav white" id="mobile-menu">
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container center intro">
+            <h3 class="white-text" style="font-size: 45px;">I DEVELOP WEB APPLICATIONS</h3>
+            <p class="white-text" style="font-size: 20px;">Hi, I'm Adewemimo, I develop front-end web applications</p>
+            <a href="https://github.com/abiona01?tab=repositories" class="btn red" style="margin-right:10px;">View Projects</a>
+            <a href="https://github.com/abiona01?tab=repositories" class="btn red" style="margin-left:10px;">Hire Me</a>
+        </div>
+    </header>
+    <section id="services">
+        <h3 class="center">SERVICES</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l3">
+                    <div class="card z-depth-0">
+                        <div class="card-content">
+                            <i class="material-icons red-text text-darken-1 medium">developer_mode</i>
+                            <h5>DEVELOPMENT AND DESIGN</h5>
+                            <p>Beautiful, modern designs, to suit the taste of users.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l3 offset-l1">
+                    <div class="card z-depth-0">
+                        <div class="card-content">
+                            <i class="material-icons red-text text-darken-1 medium">phonelink</i>
+                            <h5>MOBILE-FRIENDLY</h5>
+                            <p>Responsive designs that are accesible to users regardless of their type of device</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l3 offset-l1">
+                    <div class="card z-depth-0">
+                        <div class="card-content">
+                            <i class="material-icons red-text text-darken-1 medium">create</i>
+                            <h5>CONTENT MANAGEMENT</h5>
+                            <p>Accesible websites where content can be uploaded without knowledge of coding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h3 class="center">PORTFOLIO</h3>
+            <P class="center">The projects i've worked on are hosted on <a href="https://github.com/abiona01?tab=repositories">github.</a> Few on them are below;</P>
+            <div class="row">
+                <div class="col s12 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a href=""><img src="image/project1.png" alt="" width="150px" height="200px"></a>
+                        </div>
+                        <div class="card-action flex-container">
+                            <a href="" class="red-text">View Site</a>
+                            <a href="" class="red-text right">Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a href=""><img src="image/project2.png" alt="" width="150px" height="200px"></a>
+                        </div>
+                        <div class="card-action flex-container">
+                            <a href="" class="red-text">View Site</a>
+                            <a href="" class="red-text right">Repository</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col s12 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <a href=""><img src="image/project3.png" alt="" width="150px" height="200px"></a>
+                    </div>
+                    <div class="card-action flex-container">
+                        <a href="https://rm1album.netlify.app/" class="red-text"> View Site</a>
+                        <a href="https://github.com/abiona01/photoalbum" class="red-text right">Repository</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col s12 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <a href=""><img src="image/project5.png" alt="" width="150px" height="200px"></a>
+                    </div>
+                    <div class="card-action flex-container">
+                        <a href="https://trackmeexpense.netlify.app/" class="red-text"> View Site</a>
+                        <a href="https://github.com/abiona01/Expense-tracker"class="red-text right">Repository</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer transparent" id="contact">
+        <div class="container">
+            <div class="container center">
+                <form name="contact" method="post" data-netlify="true" id="contact">
+                    <div class="input-field">
+                      <i class="material-icons prefix red-text text-darken-1">person</i>
+                      <input type="text" id="name">
+                      <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-field">
+                      <i class="material-icons prefix red-text text-darken-1">email</i>
+                      <input type="email" id="email">
+                      <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                      <i class="material-icons prefix red-text text-darken-1">message</i>
+                      <textarea class="materialize-textarea" id="message" cols="30" rows="10"></textarea>
+                      <label for="message">Your Message</label>
+                    </div>
+                    <div class="center">
+                        <button type="submit" class="btn red darken-1">Send</button>
+                    </div>
+                  </form>
+            </div>
+            <div class="container">
+                <div class="container">
+                    <div class="container center">
+                        <nav class="nav-wrapper transparent z-depth-0">
+                            <ul>
+                                <li><a class="footer-list black-text" href="https://github.com/abiona01" target="_blank">Github</a></li>
+                                <li><a class="footer-list black-text" href="https://www.linkedin.com/in/quadrat-abiona-b164bb15a/" target="_blank">LinkedIn</a></li>
+                                <li><a class="footer-list black-text" href="https://twitter.com/lirrudev" target="_blank">Twitter</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+      $(document).ready(function(){
+          $('.sidenav').sidenav();
+      });
+  </script>
+
+</body>
+</html>
